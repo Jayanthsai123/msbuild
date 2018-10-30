@@ -11,3 +11,4 @@ RUN dotnet restore -nowarn:msb3202,nu1503
 COPY . .
 WORKDIR /Dot/DevOpsSolution
 RUN dotnet build -c Release -o /app
+
